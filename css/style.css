@@ -2979,3 +2979,22 @@ section.team {
 }
 }
 /*-- //responsive-design --*/
+/* chỉnh giới hạn dòng test */
+.inner-team1 p{
+    display: block;
+    display: -webkit-box;
+    max-height: 59px;
+    font-size: 14px;
+    line-height: 1.4;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 10px;
+    text-align: justify;
+    margin: 10px 0px;
+}
+.btn-info{
+    position: absolute;
+    bottom: -50px;
+}
