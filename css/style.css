@@ -435,7 +435,7 @@ ul.about-list li {
     color: #191826;
 }
 .about2 {
-    background: url(../images/g2.jpg) no-repeat;
+    background: url(../img/lt.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
@@ -2994,7 +2994,9 @@ section.team {
     text-align: justify;
     margin: 10px 0px;
 }
-.btn-info{
+/* .btn-info{
     position: absolute;
-    bottom: -50px;
-}
+    visibility: hidden;
+    padding: 0;
+    margin-bottom: -10px;
+} */
