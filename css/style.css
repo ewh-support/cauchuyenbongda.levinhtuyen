@@ -2994,9 +2994,23 @@ section.team {
     text-align: justify;
     margin: 10px 0px;
 }
-/* .btn-info{
-    position: absolute;
-    visibility: hidden;
-    padding: 0;
-    margin-bottom: -10px;
-} */
+.wikitable > tr > th, .wikitable > * > tr > th {
+    background-color: #eaecf0;
+    text-align: center;
+}
+.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+    border: 1px solid #a2a9b1;
+    padding: 0.2em 0.4em;
+}
+.wikitable > tr > td{
+    text-align: justify !important;
+}
+.w-border {
+    border-collapse: initial;
+    border: 1px solid #a2a9b1;
+    border-top: 0;
+}
+.vevent{
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
