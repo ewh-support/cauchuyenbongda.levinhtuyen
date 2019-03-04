@@ -1937,7 +1937,7 @@ h3.connect {
 
 /* map */
 iframe {
-    width: 100%;
+    width: 0;
     border: none;
     height: 450px;
 }
